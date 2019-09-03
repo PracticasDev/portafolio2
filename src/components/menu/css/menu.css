@@ -1,0 +1,10 @@
+.aside-main{
+  height: 100%;
+  float: left;
+  width: 300px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1001;
+  background: #f2f3f7;
+  display: block;
+}

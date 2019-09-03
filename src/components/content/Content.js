@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
+
+// estilos
+import './css/content.css'
 class Content extends Component{
   render(){
     return(
-      <div> Content </div>
+      <div className='main-content' >
+        contenido
+      </div>
     )
   }
 }

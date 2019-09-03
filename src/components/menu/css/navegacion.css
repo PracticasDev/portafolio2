@@ -1,0 +1,30 @@
+.navegacion{
+  text-align: center;
+}
+.main-link{
+  padding: 5px 0;
+  margin: 5px 0;
+}
+.rutas{
+  text-transform: uppercase;
+  letter-spacing: 1px
+}
+p.rutas{
+  display: inline-block;
+}
+p.rutas:link{
+  text-decoration: none
+}
+p.rutas:after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+
+}
+p.rutas:hover:after{
+  width: 100%;
+background: #1198cc;
+}
