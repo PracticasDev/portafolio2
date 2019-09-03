@@ -1,0 +1,26 @@
+.content-main{
+  margin:20px 0;
+  padding: 20px;
+}
+.heading{
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.q-heading{
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  margin-block-end: 30px;
+}
+.text-desc{
+  line-height: 1.8;
+  color: rgba(0,0,0,0.7);
+  margin: 25px 0
+}
