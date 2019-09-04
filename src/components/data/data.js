@@ -34,12 +34,12 @@ const Habilidades = [
     nombre: 'WEB',
     img: require('../../assets/services/web.png'),
     titulo: 'Frontend',
-    contenido: 'Tengo experiencia dise&ntilde;ando paginas web con:',
-    skill: ['Html', 'JavaScript', 'Css', 'Sass', 'React', 'Redux' ]
-  }, 
+    contenido: 'Tengo experiencia diseñando paginas web con:',
+    skill: ['Html', 'JavaScript', 'Css', 'Sass', 'React', 'Redux']
+  },
   {
     nombre: 'WEB',
-    img: require('../../assets/services/web.png'),
+    img: require('../../assets/services/backend.png'),
     titulo: 'Backend',
     contenido: 'Las aplicacion por lado del servidor',
     skill: ['Java', 'Php', 'Symfony', 'Nodejs', 'Python', 'Django']
@@ -47,27 +47,26 @@ const Habilidades = [
   {
     nombre: 'ANDROIDE',
     img: require('../../assets/services/androide.png'),
-    titulo: 'Android y Ios',
-    contenido: 'Las herramientas que uso para dise&ntilde;ar una aplicacion android y ios son :',
+    titulo: 'Android - Ios',
+    contenido: 'Las herramientas que uso para diseñar una aplicacion android y ios son :',
     skill: ['react-native', 'android studio',]
-  }, 
-  {
-    nombre: 'BASE DE DATOS',
-    img: require('../../assets/services/base-de-datos.png'),
-    titulo: 'DBA',
-    contenido: 'Experiencia modelando datos con:',
-    skill: ['MySql', 'Postgres', 'Oracle']
   },
   {
     nombre: 'BASE DE DATOS',
     img: require('../../assets/services/base-de-datos.png'),
+    contenido: 'Experiencia modelando datos con:',
+    skill: ['MySql', 'Postgres', 'Oracle']
+  },
+  {
+    nombre: 'HERRAMIENTAS',
+    img: require('../../assets/services/tools.png'),
     titulo: 'Herramientas',
     contenido: 'Herramientas que me ayudan a lograr los anterior mencionado',
     skill: ['(Sistema control de version) Git', 'Ilustrator', 'Docker', 'Firebase', 'Aws', 'Azure', 'Heroku']
   },
   {
     nombre: 'BASE DE DATOS',
-    img: require('../../assets/services/base-de-datos.png'),
+    img: require('../../assets/services/ciclo.png'),
     titulo: 'Metodologias de desarrollo',
     contenido: 'Herramientas que me ayudan a lograr los anterior mencionado',
     skill: ['Programacion extrema(xp)', 'Scrum']
@@ -115,6 +114,4 @@ const AboutMe = [
   'Actualmente estoy investigando y aprendiendo tecnologias de la actualidad o tienen tendencias tales como: Blockchain, Big data espero poder aprenderlos y aplicarlos en mis futuros proyectos ;) ',
   'Entre mis valores se encuentran: Perseverante, Puntualidad, Disciplina, Compromiso con la tarea, disponibilidad, identidad con la profesion'
 ]
-
-
 export { Slides, Habilidades, Logos, Rutas, DataPersonal, AboutMe }

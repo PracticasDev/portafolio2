@@ -13,7 +13,7 @@ class AcercaDeMi extends Component {
         <div className='content-main' >
           <div>
             <span className='heading' data-aos="fade-right">Acerca de mi</span>
-            <span className='q-heading' data-aos="fade-right">?quien soy?</span>
+            <span className='q-heading' data-aos="fade-right">¿quien soy?</span>
             <p className='text-desc' data-aos="fade-left">{AboutMe[0]}</p>
             <p className='text-desc' data-aos="fade-left" >{AboutMe[1]}</p>
             <p className='text-desc' data-aos="fade-left" >{AboutMe[2]}</p>
