@@ -7,17 +7,31 @@ import FooterMenu from './FooterMenu';
 // estilos
 import './css/menu.css'
 class Menu extends Component {
-  pintarMenuAmburguesa = () => {
-    return (
-      <div>
-        <img src={require('../../assets/icons/menu.png')} alt='menu' height='500px' className='menu-icon' />
-      </div>
-    )
+  state = {
+    showMenu: false
   }
+  changeMenu = () => {
+    console.log(this.state.showMenu)
+    if (!this.showMenu) {
+      this.setState({
+        showMenu: true
+      })
+    }
+  }
+
+  // pintarMenuAmburguesa = () => {
+  //   return (
+  //     <div className="menu-nav" onClick={this.changeMenu()} >
+  //       <img src={require('../../assets/icons/menu.png')} alt='menu' height='50px' className='menu-icon' />
+  //     </div>
+  //   )
+  // }
   render() {
     return (
       <div>
-        {/* {this.pintarMenuAmburguesa()} */}
+        <div className="menu-nav" >
+          <img src={require('../../assets/icons/menu.png')} alt='menu' height='50px' className='menu-icon' />
+        </div>
         <div className='aside-main'>
           <Perfil />
           <Navegacion />

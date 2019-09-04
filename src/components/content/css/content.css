@@ -1,4 +1,11 @@
 .main-content{
   width: calc(100% - 300px);
   float: right;
+  transition: all 1s
+}
+@media screen and (max-width: 768px){
+  .main-content {
+    width: 100%;
+    transition: all 1s
+  }
 }
