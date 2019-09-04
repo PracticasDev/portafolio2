@@ -33,9 +33,9 @@ class Contacto extends Component {
   render() {
     return (
       <div className='navegacion' >
-        {this.logos.map((logo) => {
+        {this.logos.map((logo, key) => {
           return (
-            <li className='main-link' >
+            <li className='main-link' key={key} >
               <p className='rutas'>
                 <img src={logo.img} alt={logo.social} height='25px' />
               </p>

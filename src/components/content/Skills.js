@@ -7,9 +7,9 @@ import './css/acercademi.css'
 class Skills extends Component {
   render() {
     return (
-      <div className='animated fadeInLeft content-main'>
-        <span className='heading'> ?que hago?</span>
-        <span className='q-heading'>aqui estan algunas de mis habilidades</span>
+      <div className='content-main'>
+        <span className='heading' data-aos="fade-right"> ?que hago?</span>
+        <span className='q-heading' data-aos="fade-right">aqui estan algunas de mis habilidades</span>
         <Skill />
       </div>
     )

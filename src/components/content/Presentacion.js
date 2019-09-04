@@ -40,19 +40,19 @@ class Presentacion extends Component {
           <div className="carousel">
             <ul className="slides">
               {
-                this.slides.map((slide) => {
+                this.slides.map((slide, key) => {
                   return (
-                    <div>
+                    <div key={key} >
                       <input type="radio" name="radio-buttons" id={slide.propiedades.id} checked />
                       <li className="slide-container">
                         <div className="slide-image">
                           <img src={slide.img} alt={slide.titulo} />
                         </div>
                         <div className="carousel-controls">
-                          <label for={slide.propiedades.pre} className="prev-slide">
+                          <label htmlFor={slide.propiedades.pre} className="prev-slide">
                             <span>&lsaquo;</span>
                           </label>
-                          <label for={slide.propiedades.next} className="next-slide">
+                          <label htmlFor={slide.propiedades.next} className="next-slide">
                             <span>&rsaquo;</span>
                           </label>
                         </div>

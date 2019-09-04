@@ -12,10 +12,10 @@ class Navegacion extends Component{
 
   render(){
     return(
-      <div class='navegacion' >
-        {this.rutas.map((ruta) => {
+      <div className='navegacion' >
+        {this.rutas.map((ruta, key) => {
           return(
-            <li className='main-link' >
+            <li className='main-link' key={key} >
               <p className='rutas'> {ruta} </p>
             </li>
           )
