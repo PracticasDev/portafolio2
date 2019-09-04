@@ -18,14 +18,6 @@ class Menu extends Component {
       })
     }
   }
-
-  // pintarMenuAmburguesa = () => {
-  //   return (
-  //     <div className="menu-nav" onClick={this.changeMenu()} >
-  //       <img src={require('../../assets/icons/menu.png')} alt='menu' height='50px' className='menu-icon' />
-  //     </div>
-  //   )
-  // }
   render() {
     return (
       <div>
