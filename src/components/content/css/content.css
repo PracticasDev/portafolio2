@@ -6,7 +6,7 @@
 @media screen and (max-width: 768px){
   .main-content {
     width: 100%;
+    overflow-x: hidden;
     transition: all 1s;
-    overflow-x: hidden
   }
 }
