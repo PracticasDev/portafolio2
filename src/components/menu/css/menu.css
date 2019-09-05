@@ -1,0 +1,38 @@
+.aside-main{
+  height: 100%;
+  float: left;
+  width: 300px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1001;
+  background: #f2f3f7;
+  display: block;
+  transition: all 1s
+}
+.menu-nav{
+  display: none;
+  transition: all 1s;
+}
+@media screen and (max-width: 768px){
+  .aside-main {
+    width: 0;
+    transition: all 1s
+  }
+  .menu-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    z-index: 9999;
+    transition: all 5s;
+
+  }
+  .menu-icon{
+    transition: all 5s;
+  }
+  .menu-icon:hover{
+    height: 55px;
+    transition: all 0.5s;
+  }
+}

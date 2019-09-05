@@ -1,0 +1,49 @@
+
+.card {
+  padding-top: 20px;
+  height: auto;
+}
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+  
+}
+
+.card.hovercard .cardheader {
+  background: url("../../../assets/perfil/BgPerfil.jpg");
+  background-size: cover;
+  height: 150px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 100px;
+  height: 100px;  
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.5);
+}
+.info{
+  margin-top: 50px
+}
+.info .title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #262626;
+  vertical-align: middle;
+}
+ .info .title h4{
+  font-weight: 800;  
+}
