@@ -4,6 +4,8 @@ import {Rutas} from '../data/data'
 import './css/navegacion.css'
 class Navegacion extends Component{
 
+  
+
   render(){
     return(
       <div className='navegacion' >

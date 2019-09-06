@@ -15,10 +15,12 @@ a.rutas{
   display: inline-block;
 }
 a.rutas:visited{
-  text-decoration: none
+  text-decoration: none;
+  color: #000
 }
 a.rutas:link{
-  text-decoration: none
+  text-decoration: none;
+  color: #000;
 }
 a.rutas:after{
   content: '';
@@ -31,5 +33,5 @@ a.rutas:after{
 }
 a.rutas:hover:after{
   width: 100%;
-background: #1198cc;
+  background: #1198cc;
 }

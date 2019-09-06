@@ -9,9 +9,9 @@ class Contacto extends Component {
         {Logos.map((logo, key) => {
           return (
             <li className='main-link' key={key}  >
-              <p className='rutas' >
+              <a className='rutas' >
                 <img src={logo.img} alt={logo.social} height='25px' />
-              </p>
+              </a>
             </li>
           )
         })
