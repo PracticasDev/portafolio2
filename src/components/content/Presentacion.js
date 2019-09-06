@@ -4,7 +4,7 @@ import {Slides} from '../data/data'
 class Presentacion extends Component {
   render() {
     return (
-      <div>
+      <div id="presentacion" >
         <div>
           <div className="carousel">
             <ul className="slides">

@@ -8,25 +8,25 @@ import FooterMenu from './FooterMenu';
 import './css/menu.css'
 class Menu extends Component {
   state = {
-    showMenu: false
+    showMenu :false
   }
-  changeMenu = () => {
+  changeMenu = (e) => {
+    e.preventDefault()
     console.log(this.state.showMenu)
-    if (!this.showMenu) {
-      this.setState({
-        showMenu: true
-      })
-    }
+    console.log(window.innerWidth)
+    this.setState( (state) => ({
+      showMenu: !state.showMenu
+    }) )
   }
   render() {
     return (
       <div>
-        <div className="menu-nav" >
+        <div className={ this.state.showMenu && window.innerWidth <= 768? 'menu-nav-move': 'menu-nav'} onClick={this.changeMenu}>
           <img src={require('../../assets/icons/menu.png')} alt='menu' height='50px' className='menu-icon' />
         </div>
-        <div className='aside-main'>
+        <div className = { this.state.showMenu ? 'showMenu': 'aside-main'}>
           <Perfil />
-          <Navegacion />
+          <Navegacion mostrar={this.changeMenu}/>
           <Contacto />
           <FooterMenu />
         </div>

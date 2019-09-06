@@ -100,9 +100,9 @@ const Logos = [
   }
 ]
 const Rutas = [
-  'Presentacion',
-  'Acerca de mi',
-  'algo mas'
+  { nombre: "presentacion", clave: "#presentacion"},
+  { nombre: "acerca de mi", clave: "#acercademi" },
+  { nombre: "contactame", clave: "#contactame"}
 ]
 const DataPersonal = {
   nombre: 'Genderson',

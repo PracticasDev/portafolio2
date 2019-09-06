@@ -8,7 +8,7 @@ AOS.init()
 class Skill extends Component {
   render() {
     return (
-      <div className='skill-content' >
+      <div className='skill-content'  >
         {Habilidades.map((skill, key) => {
           return (
             <div className='text-center skill' data-aos="fade-in" key={key}>

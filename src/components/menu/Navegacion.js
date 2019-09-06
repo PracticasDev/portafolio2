@@ -9,8 +9,8 @@ class Navegacion extends Component{
       <div className='navegacion' >
         {Rutas.map((ruta, key) => {
           return(
-            <li className='main-link' key={key} >
-              <p className='rutas'> {ruta} </p>
+            <li className='main-link' key={key}  >
+              <a className='rutas' href={ruta.clave}> {ruta.nombre} </a>
             </li>
           )
         })}

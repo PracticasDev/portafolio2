@@ -8,8 +8,8 @@ class Contacto extends Component {
       <div className='navegacion' >
         {Logos.map((logo, key) => {
           return (
-            <li className='main-link' key={key} >
-              <p className='rutas'>
+            <li className='main-link' key={key}  >
+              <p className='rutas' >
                 <img src={logo.img} alt={logo.social} height='25px' />
               </p>
             </li>

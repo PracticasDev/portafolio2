@@ -7,15 +7,20 @@
 }
 .rutas{
   text-transform: uppercase;
-  letter-spacing: 1px
-}
-p.rutas{
-  display: inline-block;
-}
-p.rutas:link{
+  letter-spacing: 1px;
   text-decoration: none
 }
-p.rutas:after{
+
+a.rutas{
+  display: inline-block;
+}
+a.rutas:visited{
+  text-decoration: none
+}
+a.rutas:link{
+  text-decoration: none
+}
+a.rutas:after{
   content: '';
   display: block;
   height: 3px;
@@ -24,7 +29,7 @@ p.rutas:after{
   transition: width .5s ease, background-color .5s ease;
 
 }
-p.rutas:hover:after{
+a.rutas:hover:after{
   width: 100%;
 background: #1198cc;
 }

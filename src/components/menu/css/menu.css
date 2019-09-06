@@ -18,6 +18,17 @@
     width: 0;
     transition: all 1s
   }
+  .showMenu{
+    height: 100%;
+    float: left;
+    width: 300px;
+    position: fixed;
+    overflow: scroll;
+    z-index: 1001;
+    background: #f2f3f7;
+    display: block;
+    transition: all 1s
+  }
   .menu-nav{
     display: block;
     position: fixed;
@@ -25,8 +36,16 @@
     left: 0;
     margin: 20px;
     z-index: 9999;
-    transition: all 5s;
-
+    transition: all 1s;
+  }
+  .menu-nav-move{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 300px;
+    margin: 20px;
+    z-index: 9999;
+    transition: all 1s;
   }
   .menu-icon{
     transition: all 5s;
