@@ -9,25 +9,25 @@ class App extends Component {
     welcome: true,
     time: 0 
   } 
-  // componentDidMount(){
-  //   setInterval((time) => {
-  //     this.setState({
-  //       welcome: false,
-  //       time: time
-  //     })
-  //   }, 2000);
-  // }
+  componentDidMount(){
+    setInterval((time) => {
+      this.setState({
+        welcome: false,
+        time: time
+      })
+    }, 2000);
+  }
   render() {
-    // if(this.state.welcome){
-    //   return <Welcome time={this.state.time}/>
-    // }else{
+    if(this.state.welcome){
+      return <Welcome time={this.state.time}/>
+    }else{
     return (
       <div className='main animated fadeIn'>
         <Menu />
         <Content />
       </div>
     )
-    // }
+    }
   }
 }
 export default App

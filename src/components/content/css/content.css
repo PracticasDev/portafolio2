@@ -1,12 +1,13 @@
 .main-content{
   width: calc(100% - 300px);
+  overflow: hidden;
   float: right;
   transition: all 1s
 }
 @media screen and (max-width: 768px){
   .main-content {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: all 1s;
   }
 }

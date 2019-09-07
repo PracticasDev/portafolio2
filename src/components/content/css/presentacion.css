@@ -1,4 +1,6 @@
-
+.presentacion{
+  overflow: hidden;
+}
 ul.slides {
   display: block;
   position: relative;
@@ -8,7 +10,9 @@ ul.slides {
   overflow-x: hidden;
   list-style: none;
 }
-
+.slides{
+  overflow: hidden
+}
 .slides * {
   user-select: none;
   -ms-user-select: none;
@@ -41,6 +45,7 @@ ul.slides input {
   width: auto;
   min-width: 100%;
   height: auto;
+  max-height: 400px
 }
 
 .carousel-controls {
@@ -50,7 +55,7 @@ ul.slides input {
   right: 0;
   z-index: 999;
   font-size: 100px;
-  line-height: 600px;
+  line-height: 350px;
   color: #fff;
 }
 
