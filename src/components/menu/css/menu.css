@@ -13,6 +13,21 @@
   display: none;
   transition: all 1s;
 }
+.showMenu{
+  height: 100%;
+  float: left;
+  width: 300px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1001;
+  background: #f2f3f7;
+  display: block;
+  transition: all 1s
+}
+.menu-nav-move{
+  display: none;
+  transition: all 1s;
+}
 @media screen and (max-width: 768px){
   .aside-main {
     width: 0;
